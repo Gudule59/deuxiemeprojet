@@ -5,22 +5,23 @@
 
 
 .lien-icone {
-    margin-left: 30px;
+
     
   }
   
   header{
-    padding: 20px 50px;
+    padding: 30px 50px;
+
 
   }
 
   footer {
     background-color: #F2F2F2;
-    padding: 20px 50px;
+   
    
   }
 
-  .PiedDePage, 
+  .PiedDePage
    {
     display: flex;
     flex-direction: column;
@@ -31,7 +32,37 @@
     
 } 
 
-/****** header  ***********/
+ul {
+    list-style-type: none;
+
+}
+
+
+form {
+
+
+  
+}
+
+
+input {
+ 
+    font-size: 16px;
+    color : blue;
+
+  }
+.BoutonRechercher {
+
+    display: inline-block;
+    background: #0065FC;
+    color: white;
+
+
+}
+
+
+
+  /****** header  ***********/
 
 nav, footer {
   display: flex;
@@ -45,20 +76,19 @@ nav, footer {
         display: flex;
         flex-direction: row;
         align-items: center;
-        justify-content: space-between;
-     
-        
+        justify-content: space-between;            
 }
 
-.LienNavigation a {
+
+
+ a {
     margin-left: 10px;
     margin-right: 10px;
     text-decoration: none;
     color:rgb(2, 2, 2);
   }
  
-  a:hover{
-
+  .LienNavigation:hover{
     border-top: 3px #0065FC solid;
     color: #0065FC;
     padding-top : 20px;
