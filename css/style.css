@@ -17,9 +17,26 @@
 
   footer {
     background-color: #F2F2F2;
+    font-size: 16px;
+    margin : 50px;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: baseline;
+    color:black;
+
+}
+
+
+.TitreFooter {
+    font-size: 18px;
+    font-weight: bold;
+
+}
+
    
-   
-  }
+
 
   .PiedDePage
    {
@@ -34,6 +51,7 @@
 
 ul {
     list-style-type: none;
+    margin : 10px;
 
 }
 
@@ -66,7 +84,7 @@ input {
 
   /****** header  ***********/
 
-nav, footer {
+nav {
   display: flex;
   flex-direction: row;
   align-items: center;
