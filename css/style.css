@@ -38,8 +38,10 @@ ul {
 }
 
 
-form {
-
+.filtre {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
 
   
 }
@@ -78,9 +80,6 @@ nav, footer {
         align-items: center;
         justify-content: space-between;            
 }
-
-
-
  a {
     margin-left: 10px;
     margin-right: 10px;
@@ -93,7 +92,50 @@ nav, footer {
     color: #0065FC;
     padding-top : 20px;
   }
+
+  .section-contact, .TableauRecherche {
+height: 49px;
+width: 377px;
+display: flex;
+  flex-direction: row;
+  align-items: left;
+  background-color: #F2F2F2;
+  border-radius: 10px 0px 0px 10px;
+  }
+
+  .RetourcheLogo {
+    height: 49px;
+    width: 49px;
+    background-color: black;
  
+
+  }
+
+  .RetourcheRecherche {
+    height: auto;
+    width: 200px;
+    color: black;
+    size: 16px;
+    font-weight: bold;
+    border-width: 1px 1px 1px 1px;
+    border-left: none;
+    border-right: none;
+    border-color: #F2F2F2 ;
+    padding-left: 20px ;
+
+  }
+
+.RetourcheEnvoyer{
+    height: auto;
+    width: 137px;
+    align-items: center;
+     background-color: #0065FC;
+     color: white;
+     border-radius: 00px 10px 10px 0px;
+     border-color: none ;
+
+
+}
 
 /****** menu recherche  ***********/
 
