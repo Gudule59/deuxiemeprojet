@@ -16,20 +16,21 @@
 
  <body>
         <header>
-            <nav>
-               
-                  <img src="./images/logo/Booki.png"  alt="Logo Booki" >
+
+           <div class="Logo">  <img src="./images/logo/Booki.png"  alt="Logo Booki" > </div>
+         
+           <nav class ="Navigation">
                 
-                     <ul> 
-                        
-                            <div class ="Navigation"> 
-                         <li>  <div class ="LienNavigation"><a href="#">Hébergements</div> </a></li>
-                         <li>  <div class ="LienNavigation"><a href="#">Activités</div> </a></li>      
+                     <ul class ="Navigation">
+                     
+                         <li class ="LienNavigation"><a href="#">Hébergements</a></li>
+                         <li class ="LienNavigation"><a href="#">Activités </a></li>      
                          <!--  Mettre les ancres + CSS a revoir--> 
-                            </div>
+                          
                      </ul>
 
             </nav>
+
         </header>
 
 
@@ -54,15 +55,17 @@
                                             </article>
 
                     
-                        <article class="filtre">
+                        <article class="filtres">
 
-                            <form method="get" action="">
-                               <div> <p> Filtres  </p> </div>        <!--  utiliser :before ? --> 
+                            <div> <p> Filtres  </p> </div>        <!--  utiliser :before ? --> 
 
-                                     <input type="button" name="Economique" id="Economique" value="Economique" > 
-                                    <input type="button" name="Familial" id="Familial" value="Familial">
-                                    <input type="button" name="Romantiques" id="Romantiques" value="Romantiques"> 
-                                    <input type="button" name="Nos pépites" id="Nos pépites" value="Nos pépites"> 
+                            <form class="filtre" method="get" action="">
+                         
+
+                                    <input class="filtre1" type="button" name="Economique" id="Economique" value="Economique" > 
+                                    <input class="filtre1" type="button" name="Familial" id="Familial" value="Familial">
+                                    <input class="filtre1" type="button" name="Romantiques" id="Romantiques" value="Romantiques"> 
+                                    <input class="filtre1" type="button" name="Nos pépites" id="Nos pépites" value="Nos pépites"> 
                              
                             </form>
                         
@@ -79,8 +82,12 @@
                         </div>
 
                     </article>
+
+                    
                 </section>
 
+                
+      
 
 
                 <section class="hebergements">  
@@ -141,6 +148,7 @@
                     </section>
                </footer>
 
+    
 
             </main>
 

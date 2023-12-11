@@ -4,30 +4,68 @@
 }
 
 
-.lien-icone {
-
-    
-  }
   
   header{
-    padding: 30px 50px;
+    display: flex ;
+    justify-content: space-between;
+    align-items: flex-start;
 
+}
 
+.Logo{
+    padding-left: 20px;
+    padding-top: 20px;
+
+}
+
+  /****** header  ***********/
+
+nav.Navigation {
+    display: flex;
+    align-items: flex-start;
+
+    color:black;
+  } 
+  ul.Navigation {
+    
+          display: flex;
+          align-items: flex-start;
+       
+             
   }
 
+  li.LienNavigation {
+    padding-left: 20px;
+    padding-top: 20px;
+    
+  }
+
+   a {
+      text-decoration: none;
+      color:rgb(2, 2, 2);
+     
+    }
+   
+    .LienNavigation:hover{
+      text-decoration: overline #0065FC;
+    
+     
+
+    }
+
+
+/****** FOOTER ***********/
   footer {
     background-color: #F2F2F2;
     font-size: 16px;
     margin : 50px;
     
     display: flex;
-    flex-direction: row;
     justify-content: space-around;
-    align-items: baseline;
+    align-items: flex-end;
     color:black;
 
 }
-
 
 .TitreFooter {
     font-size: 18px;
@@ -36,32 +74,55 @@
 }
 
    
-
-
   .PiedDePage
    {
     display: flex;
     flex-direction: column;
-    align-items: left;
+    align-items: stretch ;
     justify-content: space-between;
     color:black;
     background-color: #F2F2F2;
-    
 } 
 
 ul {
     list-style-type: none;
-    margin : 10px;
+ 
 
 }
 
 
 .filtre {
-    display: flex;
-    flex-direction: column;
+    display: inline-flex ;
+    flex-direction: row;
     align-items: left;
+}
 
-  
+
+.filtres {
+    display: inline-flex ;
+    flex-direction: row;
+    align-items: left;
+    font-weight: bold;
+    color: black;
+}
+.filtre1 {
+    display: flex ;
+    flex-direction: row;
+    align-items: center;
+    font-weight: bold;
+    color: black;
+    padding-right : 20px;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 60px 60px 60px 60px;
+  background-color: white;
+}
+
+.filtre1:hover {
+
+    background-color: #0065FC;
+
 }
 
 
@@ -82,34 +143,9 @@ input {
 
 
 
-  /****** header  ***********/
 
-nav {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  color:black;
-} 
- 
-.Navigation {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-between;            
-}
- a {
-    margin-left: 10px;
-    margin-right: 10px;
-    text-decoration: none;
-    color:rgb(2, 2, 2);
-  }
- 
-  .LienNavigation:hover{
-    border-top: 3px #0065FC solid;
-    color: #0065FC;
-    padding-top : 20px;
-  }
+
+/****** menu recherche  ***********/
 
   .section-contact, .TableauRecherche {
 height: 49px;
@@ -155,8 +191,6 @@ display: flex;
 
 }
 
-/****** menu recherche  ***********/
-
-
+/****** section ***********/
 
 
