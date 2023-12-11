@@ -12,6 +12,14 @@
 
 }
 
+
+
+main {
+
+    padding: 40px;
+}
+
+
 .Logo{
     padding-left: 20px;
     padding-top: 20px;
@@ -23,15 +31,12 @@
 nav.Navigation {
     display: flex;
     align-items: flex-start;
-
     color:black;
   } 
   ul.Navigation {
     
           display: flex;
-          align-items: flex-start;
-       
-             
+          align-items: flex-start;  
   }
 
   li.LienNavigation {
@@ -92,31 +97,30 @@ ul {
 
 
 .filtre {
-    display: inline-flex ;
+    display: flex ;
     flex-direction: row;
     align-items: left;
+    
 }
 
 
 .filtres {
-    display: inline-flex ;
+    display: flex ;
     flex-direction: row;
     align-items: left;
     font-weight: bold;
     color: black;
+    margin-top: 10px;
+
 }
 .filtre1 {
-    display: flex ;
-    flex-direction: row;
-    align-items: center;
-    font-weight: bold;
+    display: inline-block ;
+    justify-content: center;
     color: black;
-    padding-right : 20px;
-  margin-left: 20px;
-  margin-top: 20px;
-  margin-bottom: 20px;
+   margin: 10px;
   border-radius: 60px 60px 60px 60px;
   background-color: white;
+  
 }
 
 .filtre1:hover {
@@ -140,9 +144,6 @@ input {
 
 
 }
-
-
-
 
 
 /****** menu recherche  ***********/
@@ -193,4 +194,8 @@ display: flex;
 
 /****** section ***********/
 
+.TrouvezVotreHebergement{
+
+margin: 20px;
+}
 
