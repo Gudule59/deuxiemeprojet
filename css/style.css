@@ -35,6 +35,11 @@ main {
     padding: 40px;
 }
 
+body {
+    width: auto;
+
+}
+
 
 .Logo{
     padding-left: 20px;
@@ -219,7 +224,8 @@ margin: 20px;
 .hebergements {
 
     background-color: #F2F2F2;
-    width: 1000px;
+    width: 1300px;
+    margin-right: 20px;
 }
 
 
@@ -240,11 +246,15 @@ margin: 20px;
 
 }
 
+.test2bloc{
+display: flex;
+flex-direction: row;
 
+}
 
 /****** Populaires ***********/
 .populaires {
-  
+  width: 400px;
 }
 
 .populaires .card {
@@ -297,8 +307,8 @@ margin: 20px;
 }
 
 .card3 {
- height: 300px;
- width: 300px;
+ height: 400px;
+ width: 400px;
 
 }
 .card4 {
