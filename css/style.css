@@ -237,7 +237,8 @@ margin: 20px;
 .GestionArticle {
     display: flex;
     flex-direction: row;
-
+    margin: 10px;
+    border-radius: 60px 60px 60px 60px;
 }
 .GestionArticle2{
 
@@ -309,11 +310,16 @@ flex-direction: row;
 .card3 {
  height: 400px;
  width: 400px;
+ margin: 10px;
+ border-radius: 20px 20px 20px 20px;
 
 }
 .card4 {
     height: 500px;
     width: 400px;
-   
+    margin: 10px;
+    
+ border-radius: 20px 20px 20px 20px;
+
    }
    
