@@ -176,13 +176,19 @@ display: flex;
   border-radius: 10px 0px 0px 10px;
   }
 
-  .RetourcheLogo {
-    height: 49px;
-    width: 49px;
-    background-color: black;
  
+  .fa-location-dot {
+display: flex;
+Width: 50px;
+Height: 49px;
+border-radius: 15px, 0px, 0px, 15px;
+Border : 1px;
+justify-content: center;
+align-items: center;
 
   }
+
+  
 
   .RetourcheRecherche {
     height: auto;
