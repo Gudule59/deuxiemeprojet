@@ -62,25 +62,22 @@ nav.Navigation {
 
   li.LienNavigation {
     padding-left: 20px;
-    padding-top: 20px;
-    
-  }
+    }
 
    a {
       text-decoration: none;
       color:rgb(2, 2, 2);
-     
-    }
+      }
    
     .LienNavigation:hover{
       text-decoration: overline #0065FC;
     
      
-
     }
 
+  
 
-/****** FOOTER ***********/
+/****** FOOTER                inherit    ***********/
   footer {
     background-color: #F2F2F2;
     font-size: 16px;
@@ -318,7 +315,7 @@ flex-direction: row;
     height: 500px;
     width: 400px;
     margin: 10px;
-    
+
  border-radius: 20px 20px 20px 20px;
 
    }
