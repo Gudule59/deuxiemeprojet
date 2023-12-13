@@ -39,8 +39,10 @@
 
 
 main {
-
-    padding: 40px;
+    Width:1440px;
+    Height:1722.02px;
+    Padding:0px, 50px, 0px, 50px;
+    Gap:35px;
 }
 
 body {
@@ -48,12 +50,6 @@ body {
 
 }
 
-
-.Logo{
-    padding-left: 20px;
-    padding-top: 20px;
-
-}
 
   /****** header  ***********/
 
@@ -269,7 +265,9 @@ align-items: center;
 
 .TrouvezVotreHebergement{
 
-margin: 20px;
+    Width:1340px;
+    Height:281px;
+    Gap:35px;
 
 }
 
