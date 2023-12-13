@@ -81,8 +81,8 @@ nav.Navigation {
   footer {
     background-color: #F2F2F2;
     font-size: 16px;
-    margin : 50px;
-    
+    Width:1340px;
+    Height:163px;
     display: flex;
     justify-content: space-around;
     align-items: flex-end;
@@ -266,10 +266,12 @@ margin: 20px;
     display: flex;
     flex-direction: column;
 }
+
+
 .GestionArticle {
     display: flex;
     flex-direction: row;
-   
+    margin: 10px;
     border-radius: 60px 60px 60px 60px;
     Width:811px;
     Height:207.25px;
@@ -296,6 +298,8 @@ gap: 40px;
 
 /****** Populaires ***********/
 .populaires {
+    display: flex;
+    flex-direction: column;
 background-color: #F2F2F2;
 Width :429px;
 Height:614px;
@@ -304,21 +308,19 @@ Padding:30px;
 Gap:30px;
 }
 
-.populaires .card {
+.card {
     display: flex;
     margin-top: 33px;
 }
 
-.populaires img {
-    width: 33%;
-    height: 136px;
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
+.populaires-titre {
+
+    Width:300.31px;
+    Height:26px;
 }
-
-.populaires {
-
-
+.hebergements-titre {
+    Width:811px;
+Height:26px;
 
 }
 
@@ -328,9 +330,6 @@ Gap:30px;
     
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    box-sizing: border-box;
-
     Width:250.33px;
     Height:64.25px;
     Padding:0px, 15px, 0px, 15px;
@@ -338,18 +337,48 @@ Gap:30px;
 
 }
 
-.populaires .card-title {
-    margin-top: 10px;
-    margin-bottom: 4px;
+.hebergements-card {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    Width:250.33px;
+Height:207.25px;
+Radius:20px;
+Padding:0px, 0px, 15px, 0px;
+Gap:4px;
 }
 
-.populaires-cards .card-subtitle {
-    margin: 0;
+.card-conteneur{
+    display: flex;
+    flex-direction: column;
+    Width:250px;
+    Height:64px;
+    Padding:0px, 15px, 0px, 15px;
+    Gap:8px;
+
 }
 
-.populaires-cards .card-rating {
-    margin-bottom: 5px;
+
+.populaires-cards {
+    display: flex;
+    flex-direction: column;
+    Width:369px;
+    Height:498px;
+    Gap:30px;
 }
+
+
+.ArticleCard {
+  display: flex;
+    background-color: white;
+    filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
+    Width:369px;
+    Height:146px;
+    Radius:20px;
+    Gap:30px;
+}
+
+
 
 .card {
     background-color: white;
@@ -376,14 +405,35 @@ Gap:30px;
     Border: 5px;
 
 }
-.card4 {
+.ActivitesImg {
     Width:297.5px;
     Height:380px;
-    Radius:20px, 20px, 0px, 0px;
+    Radius: 20px, 20px, 0px, 0px;
+
    }
 
    .ActivitesMarseille{
     Width:1440px;
     Gap:30px;
+
+   }
+
+
+    .ActivitesCard {
+    Width:297.5px;
+    Height:439px;
+    Radius:20px;
+   }
+
+
+   .PopulairesImg{
+
+    Width:123px;
+    Height:146px;
+    Radius:20px, 0px, 0px, 20px;
+    Border:5px, 0px, 5px, 5px;
+    Border-color : white;
+
+
 
    }
