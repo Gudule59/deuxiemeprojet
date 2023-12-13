@@ -36,7 +36,7 @@ main {
 }
 
 body {
-    width: auto;
+    Width:1440px;
 
 }
 
@@ -253,6 +253,11 @@ margin: 20px;
     background-color: #F2F2F2;
     width: 1300px;
     margin-right: 20px;
+    Width:871px;
+    Height:614px;
+    Radius:15px;
+    Padding:30px;
+    Gap:30px;
 }
 
 
@@ -264,25 +269,39 @@ margin: 20px;
 .GestionArticle {
     display: flex;
     flex-direction: row;
-    margin: 10px;
+   
     border-radius: 60px 60px 60px 60px;
+    Width:811px;
+    Height:207.25px;
+    Gap:30px;
 }
 .GestionArticle2{
 
     display: flex;
     flex-direction: row;
+    Width:1280px;
+    Height:439px;
+    Gap:30px;
 
 }
 
 .test2bloc{
+
 display: flex;
 flex-direction: row;
+width: 1340px;
+gap: 40px;
 
 }
 
 /****** Populaires ***********/
 .populaires {
-  width: 400px;
+background-color: #F2F2F2;
+Width :429px;
+Height:614px;
+Radius:15px;
+Padding:30px;
+Gap:30px;
 }
 
 .populaires .card {
@@ -297,13 +316,26 @@ flex-direction: row;
     border-bottom-left-radius: 20px;
 }
 
-.populaires .card-content {
-    width: 67%;
-    padding-left: 15px;
+.populaires {
+
+
+
+}
+
+
+
+.card-content {
+    
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     box-sizing: border-box;
+
+    Width:250.33px;
+    Height:64.25px;
+    Padding:0px, 15px, 0px, 15px;
+    Gap:8px;
+
 }
 
 .populaires .card-title {
@@ -321,9 +353,12 @@ flex-direction: row;
 
 .card {
     background-color: white;
-    border-radius: 20px;
-    padding: 5px;
     filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
+    Width:250.33px;
+    Height:207.25px;
+    Radius:20px;
+    Padding:0px, 0px, 15px, 0px;
+    Gap:4px;
 }
 
 .card img {
@@ -335,18 +370,20 @@ flex-direction: row;
 }
 
 .card3 {
- height: 400px;
- width: 400px;
- margin: 10px;
- border-radius: 20px 20px 20px 20px;
+    Width:250.33px;
+    Height:124px;
+    Radius:20px, 20px, 0px, 0px;
+    Border: 5px;
 
 }
 .card4 {
-    height: 500px;
-    width: 400px;
-    margin: 10px;
+    Width:297.5px;
+    Height:380px;
+    Radius:20px, 20px, 0px, 0px;
+   }
 
- border-radius: 20px 20px 20px 20px;
+   .ActivitesMarseille{
+    Width:1440px;
+    Gap:30px;
 
    }
-   
