@@ -22,12 +22,20 @@
 }
 
   header{
+    Width:1440px;
+    Height:79px;
     display: flex ;
     justify-content: space-between;
     align-items: flex-start;
 
 }
+.Logo{
+    Width:161.09px;
+    Height:79px;
+    Padding:30px, 50px, 30px, 50px;
+    Gap:10px;
 
+}
 
 
 main {
@@ -53,16 +61,33 @@ nav.Navigation {
     display: flex;
     align-items: flex-start;
     color:black;
+    Width:344px;
+    Height:35px;
+    Left:1096px;
+    Padding:0px, 50px, 0px, 50px;
+    Gap:68px;
+
   } 
   ul.Navigation {
     
           display: flex;
           align-items: flex-start;  
+          Width:244px;
+          Height:35px;
+          Gap:68px;
   }
 
   li.LienNavigation {
-    padding-left: 20px;
+    Width:113px;
+    Height:35px;
     }
+
+a.LienNav{
+    Width:112px;
+    Height:19px;
+    padding-top:16px;
+
+}
 
    a {
       text-decoration: none;
