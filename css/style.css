@@ -1,507 +1,441 @@
 /****** General ***********/
 * {
-    font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
-:root {    /****** gestion couleur ***********/
-    --main-color: #0065FC;
-    --main-bg-color: #F2F2F2;
-    --filter-bg-color: #DEEBFF;
+:root {
+  /****** gestion couleur ***********/
+  --main-color: #0065fc;
+  --main-bg-color: #f2f2f2;
+  --filter-bg-color: #deebff;
 }
 
-.fa-solid {    /****** etoiles ***********/
-    color: var(--main-color);
+.fa-solid {
+  /****** etoiles ***********/
+  color: var(--main-color);
 }
- 
+
 .euro {
-    font-weight: 700;
+  font-weight: 700;
+}
+.neutral-star {
+  /****** etoile grise ***********/
+  color: var(--main-bg-color);
 }
 
-.neutral-star {  /****** etoile grise ***********/
-    color: var(--main-bg-color)
+header {
+  width: 1440px;
+  height: 79px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
 }
 
-  header{
-    Width:1440px;
-    Height:79px;
-    display: flex ;
-    justify-content: space-between;
-    align-items: flex-start;
-
+.Logo {
+  width: 161.09px;
+  height: 79px;
+  padding: 30px, 50px, 30px, 50px;
+  gap: 10px;
 }
-.Logo{
-    Width:161.09px;
-    Height:79px;
-    Padding:30px, 50px, 30px, 50px;
-    Gap:10px;
-
-}
-
-
 main {
-    Width:1440px;
-    Height:1722.02px;
-    Padding:0px, 50px, 0px, 50px;
-    Gap:35px;
+  width: 1440px;
+  height: 1722.02px;
+  padding: 0px, 50px, 0px, 50px;
+  gap: 35px;
 }
 
 body {
-    Width:1440px;
-
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
-
-  /****** header  ***********/
+/****** header  ***********/
 
 nav.Navigation {
-    display: flex;
-    align-items: flex-start;
-    color:black;
-    Width:344px;
-    Height:35px;
-    Left:1096px;
-    Padding:0px, 50px, 0px, 50px;
-    Gap:68px;
-
-  } 
-  ul.Navigation {
-    
-          display: flex;
-          align-items: flex-start;  
-          Width:244px;
-          Height:35px;
-          Gap:68px;
-  }
-
-  li.LienNavigation {
-    Width:113px;
-    Height:35px;
-    }
-
-a.LienNav{
-    Width:112px;
-    Height:19px;
-    padding-top:16px;
-
+  display: flex;
+  align-items: flex-start;
+  color: black;
+  width: 344px;
+  height: 35px;
+  left: 1096px;
+  padding: 0px, 50px, 0px, 50px;
+  gap: 68px;
+}
+ul.Navigation {
+  display: flex;
+  align-items: flex-start;
+  width: 244px;
+  height: 35px;
+  gap: 68px;
 }
 
-   a {
-      text-decoration: none;
-      color:rgb(2, 2, 2);
-      }
-   
-    .LienNavigation:hover{
-      text-decoration: overline #0065FC;
-    
-     
-    }
+li.LienNavigation {
+  width: 113px;
+  height: 35px;
+}
 
-  
+a.LienNav {
+  width: 112px;
+  height: 19px;
+  padding-top: 16px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(2, 2, 2);
+}
+
+.LienNavigation:hover {
+  text-decoration: overline #0065fc;
+}
 
 /****** FOOTER                inherit    ***********/
-  footer {
-    background-color: #F2F2F2;
-    font-size: 16px;
-    Width:1340px;
-    Height:163px;
-    display: flex;
-    justify-content: space-around;
-    align-items: flex-end;
-    color:black;
-
+footer {
+  background-color: #f2f2f2;
+  font-size: 16px;
+  width: 1340px;
+  height: 163px;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  color: black;
 }
 
 .TitreFooter {
-    font-size: 18px;
-    font-weight: bold;
-
+  font-size: 18px;
+  font-weight: bold;
 }
 
-   
-  .PiedDePage
-   {
-    display: flex;
-    flex-direction: column;
-    align-items: stretch ;
-    justify-content: space-between;
-    color:black;
-    background-color: #F2F2F2;
-} 
+.PiedDePage {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: space-between;
+  color: black;
+  background-color: #f2f2f2;
+}
 
 ul {
-    list-style-type: none;
- 
-
+  list-style-type: none;
 }
 
 .filtres {
-    display: flex ;
-    flex-direction: row;
-    justify-content: left;
-    font-weight: bold;
-    color: black;
-    margin-top: 10px;
-
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  font-weight: bold;
+  color: black;
+  margin-top: 10px;
 }
-.boutonfiltre{
-    display: flex ;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center ;
-    Width :173px;
-    Height:50px;
-    border-radius:25px;
-    border-color: #D9D9D9;
-    Padding:4px, 19px, 4px, 19px;
-    Gap:10px;
-    background-color: white;
-    border-style: solid;
-    margin-left: 20px;
-   
+.boutonfiltre {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 173px;
+  height: 50px;
+  border-radius: 25px;
+  border-color: #d9d9d9;
+  padding: 4px, 19px, 4px, 19px;
+  gap: 10px;
+  background-color: white;
+  border-style: solid;
+  margin-left: 20px;
 }
 
 .fa-info {
-border-color: #D9D9D9;
-Padding:5px 10px 5px 10px;
-Gap:10px;
-background-color: white;
-border-style: solid;
-border-radius:25px;
-margin-right: 10px;
-
+  border-color: #d9d9d9;
+  padding: 5px 10px 5px 10px;
+  gap: 10px;
+  background-color: white;
+  border-style: solid;
+  border-radius: 25px;
+  margin-right: 10px;
 }
 .filtretext {
- 
-    font-weight: bold;
-    color: black;
-    margin-left: 10px;
+  font-weight: bold;
+  color: black;
+  margin-left: 10px;
 }
 
 .boutonfiltre:hover {
-
-    background-color: #DEEBFF;
-
+  background-color: #deebff;
 }
-
 
 input {
- 
-    font-size: 16px;
-    color : blue;
-
-  }
-.BoutonRechercher {
-
-    display: inline-block;
-    background: #0065FC;
-    color: white;
-    
+  font-size: 16px;
+  color: blue;
 }
-
-
-
-
-
+.BoutonRechercher {
+  display: inline-block;
+  background: #0065fc;
+  color: white;
+}
 
 /****** menu recherche  ***********/
 
-  .section-contact, .TableauRecherche {
-height: 49px;
-width: 377px;
-display: flex;
+.section-contact,
+.TableauRecherche {
+  height: 49px;
+  width: 377px;
+  display: flex;
   flex-direction: row;
   align-items: left;
-  background-color: #F2F2F2;
+  background-color: #f2f2f2;
   border-radius: 10px 10px 10px 10px;
- 
-  
-  }
+}
 
- 
-  .fa-location-dot {
-display: flex;
-Width: 50px;
-Height: 49px;
-border-radius: 15px, 0px, 0px, 15px;
-Border : 1px;
-justify-content: center;
-align-items: center;
+.fa-location-dot {
+  display: flex;
+  width: 50px;
+  height: 49px;
+  border-radius: 15px, 0px, 0px, 15px;
+  border: 1px;
+  justify-content: center;
+  align-items: center;
+}
 
-  }
+.RetourcheRecherche {
+  height: auto;
+  width: 200px;
+  color: black;
+  size: 16px;
+  font-weight: bold;
+  border-width: 1px 1px 1px 1px;
+  border-left: none;
+  border-right: none;
+  border-color: #f2f2f2;
+  padding-left: 20px;
+  border-style: solid;
+  border-right: none;
+}
 
-  
-
-  .RetourcheRecherche {
-    height: auto;
-    width: 200px;
-    color: black;
-    size: 16px;
-    font-weight: bold;
-    border-width: 1px 1px 1px 1px;
-    border-left: none;
-    border-right: none;
-    border-color: #F2F2F2 ;
-    padding-left: 20px ;
-    border-style: solid;
-    border-right: none;
-  }
-
-.RetourcheEnvoyer{
-    height: auto;
-    width: 137px;
-    align-items: center;
-     background-color: #0065FC;
-     color: white;
-     border-radius: 00px 10px 10px 0px;
-     border-color: none ;
-     border-style: solid;
-     border-color: #D9D9D9;
-     border-left: none;
-     border-radius: 0px 10px 10px 0px;
-
+.RetourcheEnvoyer {
+  height: auto;
+  width: 137px;
+  align-items: center;
+  background-color: #0065fc;
+  color: white;
+  border-radius: 00px 10px 10px 0px;
+  border-color: none;
+  border-style: solid;
+  border-color: #d9d9d9;
+  border-left: none;
+  border-radius: 0px 10px 10px 0px;
 }
 
 /****** section ***********/
 
-.TrouvezVotreHebergement{
-
-    Width:1340px;
-    Height:281px;
-    Gap:35px;
-
+.TrouvezVotreHebergement {
+  width: 1340px;
+  height: 281px;
+  gap: 35px;
 }
 
 .hebergements {
-
-    background-color: #F2F2F2;
-    width: 1300px;
-    margin-right: 20px;
-    Width:871px;
-    Height:614px;
-    Radius:15px;
-    Padding:30px;
-    Gap:30px;
+  background-color: #f2f2f2;
+  width: 1300px;
+  margin-right: 20px;
+  width: 871px;
+  height: 614px;
+  radius: 15px;
+  padding: 30px;
+  gap: 30px;
 }
-
 
 /****** Hebergements ***********/
 .hebergements {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
-
 
 .GestionArticle {
-    display: flex;
-    flex-direction: row;
-    margin: 10px;
-    border-radius: 60px 60px 60px 60px;
-    Width:811px;
-    Height:207.25px;
-    Gap:30px;
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+  border-radius: 60px 60px 60px 60px;
+  width: 811px;
+  height: 207.25px;
+  gap: 30px;
 }
-.GestionArticle2{
-
-    display: flex;
-    flex-direction: row;
-    Width:1280px;
-    Height:439px;
-    Gap:30px;
-
+.GestionArticle2 {
+  display: flex;
+  flex-direction: row;
+  width: 1280px;
+  height: 439px;
+  gap: 30px;
 }
 
-.test2bloc{
-
-display: flex;
-flex-direction: row;
-width: 1340px;
-gap: 40px;
-
+.test2bloc {
+  display: flex;
+  flex-direction: row;
+  width: 1340px;
+  gap: 40px;
 }
 
 /****** Populaires ***********/
 .populaires {
-    display: flex;
-    flex-direction: column;
-background-color: #F2F2F2;
-Width :429px;
-Height:614px;
-Radius:15px;
-Padding:30px;
-Gap:30px;
+  display: flex;
+  flex-direction: column;
+  background-color: #f2f2f2;
+  width: 429px;
+  height: 614px;
+  radius: 15px;
+  padding: 30px;
+  gap: 30px;
 }
 
 .card {
-    display: flex;
-    margin-top: 33px;
+  display: flex;
+  margin-top: 33px;
 }
 
 .populaires-titre {
-
-    Width:300.31px;
-    Height:26px;
+  width: 300.31px;
+  height: 26px;
 }
 .hebergements-titre {
-    Width:811px;
-Height:26px;
-
+  width: 811px;
+  height: 26px;
 }
 
-
-
 .card-content {
-    
-    display: flex;
-    flex-direction: column;
-    Width:250.33px;
-    Height:64.25px;
-    Padding:0px, 15px, 0px, 15px;
-    Gap:8px;
-
+  display: flex;
+  flex-direction: column;
+  width: 250.33px;
+  height: 64.25px;
+  padding: 0px, 15px, 0px, 15px;
+  gap: 8px;
 }
 
 .hebergements-card {
-    display: flex;
-    flex-direction: column;
-    background-color: white;
-    Width:250.33px;
-Height:207.25px;
-Radius:20px;
-Padding:0px, 0px, 15px, 0px;
-Gap:4px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 250.33px;
+  height: 207.25px;
+  radius: 20px;
+  padding: 0px, 0px, 15px, 0px;
+  gap: 4px;
 }
 
-.card-conteneur{
-    display: flex;
-    flex-direction: column;
-    Width:250px;
-    Height:64px;
-    Padding:0px, 15px, 0px, 15px;
-    Gap:8px;
-
+.card-conteneur {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  height: 64px;
+  padding: 0px, 15px, 0px, 15px;
+  gap: 8px;
 }
-
 
 .populaires-cards {
-    display: flex;
-    flex-direction: column;
-    Width:369px;
-    Height:498px;
-    Gap:30px;
+  display: flex;
+  flex-direction: column;
+  width: 369px;
+  height: 498px;
+  gap: 30px;
 }
-
 
 .ArticleCard {
   display: flex;
-    background-color: white;
-    filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
-    Width:369px;
-    Height:146px;
-    Radius:20px;
-    Gap:30px;
+  background-color: white;
+  filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
+  width: 369px;
+  height: 146px;
+  radius: 20px;
+  gap: 30px;
 }
 
-
-
 .card {
-    background-color: white;
-    filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
-    Width:250.33px;
-    Height:207.25px;
-    Radius:20px;
-    Padding:0px, 0px, 15px, 0px;
-    Gap:4px;
+  background-color: white;
+  filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
+  width: 250.33px;
+  height: 207.25px;
+  radius: 20px;
+  padding: 0px, 0px, 15px, 0px;
+  gap: 4px;
 }
 
 .card img {
-    object-fit: cover;
+  object-fit: cover;
 }
 
 .card-title {
-    
-    font-size: 16px;
+  font-size: 16px;
 }
-.card-tx{
-display: flex;
-flex-direction: column;
-
+.card-tx {
+  display: flex;
+  flex-direction: column;
 }
 
 .card3 {
-    Width:250.33px;
-    Height:124px;
-    Radius:20px, 20px, 0px, 0px;
-    Border: 5px;
-
+  width: 250.33px;
+  height: 124px;
+  radius: 20px, 20px, 0px, 0px;
+  border: 5px;
 }
 .ActivitesImg {
-    Width:297.5px;
-    Height:380px;
-    Radius: 20px, 20px, 0px, 0px;
+  width: 297.5px;
+  height: 380px;
+  radius: 20px, 20px, 0px, 0px;
+}
 
-   }
+.ActivitesMarseille {
+  width: 1440px;
+  gap: 30px;
+}
 
-   .ActivitesMarseille{
-    Width:1440px;
-    Gap:30px;
+.ActivitesCard {
+  width: 297.5px;
+  height: 439px;
+  radius: 20px;
+}
 
-   }
-
-
-    .ActivitesCard {
-    Width:297.5px;
-    Height:439px;
-    Radius:20px;
-   }
-
-
-   .PopulairesImg{
-
-    Width:123px;
-    Height:146px;
-    Radius:20px, 0px, 0px, 20px;
-    Border:5px, 0px, 5px, 5px;
-    Border-color : white;
-   }
-
-
+.PopulairesImg {
+  width: 123px;
+  height: 146px;
+  radius: 20px, 0px, 0px, 20px;
+  border: 5px, 0px, 5px, 5px;
+  border-color: white;
+}
 
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
-    .test2bloc {
-        flex-direction: column;
-    }
+  .test2bloc {
+    flex-direction: column;
+  }
 
-    .hebergements {
-        width: 100%;
-    }
+  .hebergements {
+    width: 100%;
+  }
 
-    .populaires {
-        width: 100%;
-        margin-top: 50px;
-    }
+  .populaires {
+    width: 100%;
+    margin-top: 50px;
+  }
 
-    .populaires-cards {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-    }
+  .populaires-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
 
-    .GestionArticle .populaires-cards a {
-        width: 30%;
-    }
+  .GestionArticle .populaires-cards a {
+    width: 30%;
+  }
 
-    .populaires-cards .card-title {
-        font-size: 14px;
-    }
+  .populaires-cards .card-title {
+    font-size: 14px;
+  }
 
-    .populaires-cards .card-subtitle {
-        font-size: 13px;
-    }
+  .populaires-cards .card-subtitle {
+    font-size: 13px;
+  }
 }
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
-  
 }
