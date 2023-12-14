@@ -418,7 +418,13 @@ Gap:4px;
 }
 
 .card-title {
+    
     font-size: 16px;
+}
+.card-tx{
+display: flex;
+flex-direction: column;
+
 }
 
 .card3 {
