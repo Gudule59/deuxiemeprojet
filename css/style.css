@@ -71,15 +71,18 @@ ul.Navigation {
   gap: 68px;
 }
 
-li.LienNavigation {
+.LienNavigation {
   width: 113px;
   height: 35px;
+  background-color: white;
+  border : none;
 }
+
 
 a.LienNav {
   width: 112px;
   height: 19px;
-  padding-top: 16px;
+
 }
 
 a {
@@ -88,7 +91,11 @@ a {
 }
 
 .LienNavigation:hover {
-  text-decoration: overline #0065fc;
+
+    padding-top: 15px;
+  border-top: 2px solid  #0065fc;
+
+
 }
 
 /****** FOOTER                inherit    ***********/
