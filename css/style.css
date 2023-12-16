@@ -24,7 +24,7 @@
 }
 
 header {
-  width: 1440px;
+  width: 75%;
   height: 79px;
   display: flex;
   justify-content: space-between;
@@ -48,8 +48,8 @@ main {
 body {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+align-items: center;
+
 }
 
 /****** header  ***********/
@@ -103,7 +103,7 @@ a {
 footer {
   background-color: #f2f2f2;
   font-size: 16px;
-  width: 1340px;
+  width: 100%;
   height: 163px;
   display: flex;
   justify-content: space-around;
@@ -289,7 +289,7 @@ input {
   display: flex;
   flex-direction: column;
   background-color: #f2f2f2;
-  width: 429px;
+  width: 32%;
   height: 614px;
   radius: 15px;
   padding: 30px;
@@ -313,7 +313,7 @@ input {
 .card-content {
   display: flex;
   flex-direction: column;
-  width: 250.33px;
+  width: 67%;
   height: 64.25px;
   padding: 0px, 15px, 0px, 15px;
   gap: 8px;
@@ -342,7 +342,7 @@ input {
 .populaires-cards {
   display: flex;
   flex-direction: column;
-  width: 369px;
+  width: 67%;
   height: 498px;
   gap: 30px;
 }
@@ -367,7 +367,7 @@ input {
   gap: 4px;
 }
 
-.card img {
+.card img .card3 .PopulairesImg{
   object-fit: cover;
 }
 
@@ -392,18 +392,18 @@ input {
 }
 
 .ActivitesMarseille {
-  width: 1440px;
+  width: auto;
   gap: 30px;
 }
 
-.ActivitesCard {
-  width: 297.5px;
+.ActivitesCard { 
+  width: 100%;
   height: 439px;
   radius: 20px;
 }
 
 .PopulairesImg {
-  width: 123px;
+  width: 33%;
   height: 146px;
   radius: 20px, 0px, 0px, 20px;
   border: 5px, 0px, 5px, 5px;
@@ -412,28 +412,49 @@ input {
 
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
-@media (max-width: 1024px) {
-  .test2bloc {
+@media screen and (max-width: 1024px) {
+  .test2bloc  {
+    display: flex;
     flex-direction: column;
   }
 
+main{
+
+    width: 80%;
+}
+
+
+.ActivitesCard{
+
+    width: 30%;
+
+}
   .hebergements {
     width: 100%;
   }
+
 
   .populaires {
     width: 100%;
     margin-top: 50px;
   }
 
-  .populaires-cards {
+  .populaires-cards  {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+
+
+  }
+ 
+  .ArticleCard {
+    display: flex;
+ 
   }
 
-  .GestionArticle .populaires-cards a {
+
+
+   .populaires-cards a  {
     width: 30%;
+    
   }
 
   .populaires-cards .card-title {
@@ -447,4 +468,8 @@ input {
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
+
+
+
+
 }
