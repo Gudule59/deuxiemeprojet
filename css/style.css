@@ -3,6 +3,21 @@
   font-family: "Raleway", sans-serif;
 }
 
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    max-width: 1440px; /* limite de largeur maximale pour la page */
+    min-width: 320px; /* limite de largeur minimale pour la page */
+    margin: 0 auto; /* Centre le contenu horizontalement dans la fenêtre du navigateur */
+}
+
+
+
 :root {
   /****** gestion couleur ***********/
   --main-color: #0065fc;
@@ -23,8 +38,9 @@
   color: var(--main-bg-color);
 }
 
+/****** header  ***********/
+
 header {
-width: 90%;
   height: 79px;
   display: flex;
   justify-content: space-between;
@@ -45,19 +61,12 @@ flex-direction: row;
   gap: 10px;
 }
 main {
-    width: auto;
+    width: 1440px;
   height: 1722.02px;
   padding: 0px, 50px, 0px, 50px;
   gap: 35px;
 }
 
-body {
-  display: flex;
-  flex-direction: column;
- align-items: center;
- justify-items: center;
-
-}
 
 /****** header  ***********/
 
@@ -425,9 +434,9 @@ input {
     flex-direction: column;
   }
 
-main{
+main header body{
 
-    width: 80%;
+width: 1024px;
 }
 
 .filtres {
@@ -446,7 +455,7 @@ width: 1440px;
 
 .ActivitesCard{
 
-    width: 30%;
+ 
 
 }
   .hebergements {
