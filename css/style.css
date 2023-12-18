@@ -15,8 +15,12 @@ html {
     min-width: 320px; /* limite de largeur minimale pour la page */
     margin: 0 auto; /* Centre le contenu horizontalement dans la fenêtre du navigateur */
 }
-
-
+main {
+    width: auto;
+      height: 1722.02px;
+      padding: 0px 50px 0px 50px;
+      gap: 35px;
+    }
 
 :root {
   /****** gestion couleur ***********/
@@ -38,6 +42,7 @@ html {
   color: var(--main-bg-color);
 }
 
+
 /****** header  ***********/
 
 header {
@@ -55,34 +60,27 @@ flex-direction: row;
   width: auto;
 }
 .Logo {
-  width: 161.09px;
-  height: 79px;
-  padding: 30px, 50px, 30px, 50px;
-  gap: 10px;
-}
-main {
-    width: 1440px;
-  height: 1722.02px;
-  padding: 0px, 50px, 0px, 50px;
-  gap: 35px;
+    Width:161px;
+    Height:19px;
+     gap: 10px;
+     Padding: 30px 50px 30px 50px;
 }
 
 
-/****** header  ***********/
+
+/****** navigation  ***********/
 
 nav.Navigation {
   display: flex;
-  align-items: flex-start;
+  align-items: flex-end;
   color: black;
   width: 344px;
   height: 35px;
-  left: 1096px;
-  padding: 0px, 50px, 0px, 50px;
   gap: 68px;
+  margin-top:20px ;
 }
 ul.Navigation {
   display: flex;
-  align-items: flex-start;
   width: 244px;
   height: 35px;
   gap: 68px;
@@ -95,11 +93,9 @@ ul.Navigation {
   border : none;
 }
 
-
 a.LienNav {
   width: 112px;
   height: 19px;
-
 }
 
 a {
@@ -108,97 +104,71 @@ a {
 }
 
 .LienNavigation:hover {
-
-    padding-top: 15px;
   border-top: 2px solid  #0065fc;
-
-
 }
 
-/****** FOOTER                inherit    ***********/
-footer {
-  background-color: #f2f2f2;
-  font-size: 16px;
-  width: 100%;
-  height: 163px;
-  display: flex;
-  justify-content: space-around;
-  align-items: flex-end;
-  color: black;
-}
 
-.TitreFooter {
-  font-size: 18px;
-  font-weight: bold;
-}
 
-.PiedDePage {
-  display: flex;
-  flex-direction: column;
-  align-items: stretch;
-  justify-content: space-between;
-  color: black;
-  background-color: #f2f2f2;
-  width: auto;
-}
 
 ul {
-  list-style-type: none;
-}
+    list-style-type: none;
+  }
+  
+  .filtres {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    font-weight: bold;
+    color: black;
+    margin-top: 30px;
+    margin-bottom: 15px;
+  }
+  .boutonfiltre {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 173px;
+    height: 50px;
+    border-radius: 25px;
+    border-color: #d9d9d9;
+    padding: 4px, 19px, 4px, 19px;
+    gap: 10px;
+    background-color: white;
+    border-style: solid;
+    margin-left: 20px;
+  }
+  
+  .fa-info {
+    border-color: #d9d9d9;
+    padding: 5px 10px 5px 10px;
+    gap: 10px;
+    background-color: white;
+    border-style: solid;
+    border-radius: 25px;
+    margin-right: 10px;
+  }
+  .filtretext {
+    font-weight: bold;
+    color: black;
+    margin-left: 10px;
+  }
+  
+  .boutonfiltre:hover {
+    background-color: #deebff;
+  }
+  
+  input {
+    font-size: 16px;
+    color: blue;
+  }
+  .BoutonRechercher {
+    display: inline-block;
+    background: #0065fc;
+    color: white;
+  }
 
-.filtres {
-  display: flex;
-  flex-direction: row;
-  justify-content: left;
-  font-weight: bold;
-  color: black;
-  margin-top: 30px;
-  margin-bottom: 15px;
-}
-.boutonfiltre {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-  width: 173px;
-  height: 50px;
-  border-radius: 25px;
-  border-color: #d9d9d9;
-  padding: 4px, 19px, 4px, 19px;
-  gap: 10px;
-  background-color: white;
-  border-style: solid;
-  margin-left: 20px;
-}
 
-.fa-info {
-  border-color: #d9d9d9;
-  padding: 5px 10px 5px 10px;
-  gap: 10px;
-  background-color: white;
-  border-style: solid;
-  border-radius: 25px;
-  margin-right: 10px;
-}
-.filtretext {
-  font-weight: bold;
-  color: black;
-  margin-left: 10px;
-}
-
-.boutonfiltre:hover {
-  background-color: #deebff;
-}
-
-input {
-  font-size: 16px;
-  color: blue;
-}
-.BoutonRechercher {
-  display: inline-block;
-  background: #0065fc;
-  color: white;
-}
 
 /****** menu recherche  ***********/
 
@@ -426,6 +396,36 @@ input {
   border: 5px, 0px, 5px, 5px;
   border-color: white;
 }
+
+
+
+/****** FOOTER ***********/
+footer {
+    background-color: #f2f2f2;
+    font-size: 16px;
+    width: 100%;
+    height: 163px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    color: black;
+  }
+  
+  .TitreFooter {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .PiedDePage {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-between;
+    color: black;
+    background-color: #f2f2f2;
+    width: auto;
+  }
+  
 
 /****** Media queries ***********/
 @media screen and (max-width: 1024px) {
