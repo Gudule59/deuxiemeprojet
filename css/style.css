@@ -437,6 +437,14 @@ footer {
         flex-direction: column;
     }
 
+    .Logo{
+        display: flex;
+        width: 50%;
+    }
+    
+    nav.Navigation {
+        width: 30%;
+    }
     .hebergements-section {
         width: 100%;
     }
@@ -466,6 +474,7 @@ footer {
     .filtres {
         display:flex ;
         flex-direction:column;
+        width: 100%;
     }
     .ActivitesMarseille {
         width: 100%;
@@ -490,7 +499,6 @@ footer {
     display: flex;
     flex-direction: column;
     Width:100%;
-    
 }
 
 header{
@@ -504,9 +512,12 @@ header{
 
 .Logo{
     display: flex;
-
+    width: 100%;
 }
 
+nav.Navigation {
+    width: 100%;
+}
 .hebergements-and-populaires {
         flex-direction: column-reverse;
     }
