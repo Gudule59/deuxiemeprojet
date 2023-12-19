@@ -465,6 +465,19 @@ footer {
         display:flex ;
         flex-direction:column;
     }
+    .ActivitesMarseille {
+        width: 864px;
+    }
+    .GestionArticle2{
+        width: 193px;
+        Height:270px;
+
+    }
+    .ActivitesImg {
+        width: 193px;
+        height: 200px;
+       
+      }
 }
 
 /* Small devices (phones, less than 768px) */
