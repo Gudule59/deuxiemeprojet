@@ -572,7 +572,7 @@ ul.Navigation {
       
         }
 .loupe{
-    display: none;
+    display: flex;
     width: 50%;
 }
 .BoutonRechercher {
@@ -580,7 +580,7 @@ ul.Navigation {
     width: 20%;
   }
 
-  
+
   .fa-location-dot {
     width: 15%;
 
@@ -593,7 +593,7 @@ ul.Navigation {
     width: 100%;
 }
 .fa-magnifying-glass {
-display:inline-flexbox;
+    display: inline-block; 
 background: #0065fc;
 color: white;
 width: 100%;
