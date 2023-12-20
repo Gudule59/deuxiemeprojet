@@ -187,17 +187,23 @@ ul {
   }
 
 
+.fa-magnifying-glass {
+display: none;
+background: #0065fc;
+color: white;
+}
+
 
 /****** menu recherche  ***********/
 
 .section-contact,
 .TableauRecherche {
   height: 49px;
-  width: 377px;
+  width: 100%;
   display: flex;
   flex-direction: row;
   align-items: left;
-  background-color: #f2f2f2;
+ 
   border-radius: 10px 10px 10px 10px;
 }
 
@@ -205,8 +211,9 @@ ul {
   display: flex;
   width: 50px;
   height: 49px;
-  border-radius: 15px, 0px, 0px, 15px;
+  border-radius: 15px 0px 0px 15px;
   border: 1px;
+  background-color: #f2f2f2;
   justify-content: center;
   align-items: center;
 }
@@ -561,12 +568,36 @@ ul.Navigation {
             white-space: normal;
         }
         .boutonfiltre {
-
             width: 45%;
       
-
         }
+.loupe{
+    display: none;
+    width: 50%;
+}
+.BoutonRechercher {
+    
+    width: 20%;
+  }
 
+  
+  .fa-location-dot {
+    width: 15%;
+
+  }
+  .section-contact, .TableauRecherche{
+    width: 100%;
+  }
+
+.RetourcheRecherche {
+    width: 100%;
+}
+.fa-magnifying-glass {
+display:inline-flexbox;
+background: #0065fc;
+color: white;
+width: 100%;
+}
 
 
 .hebergements-and-populaires section {
