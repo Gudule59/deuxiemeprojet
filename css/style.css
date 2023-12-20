@@ -550,12 +550,19 @@ ul.Navigation {
     .hebergements-and-populaires {
             flex-direction: column-reverse;
             width: 100%;
+
         }
     
+
+.hebergements-and-populaires section {
+    background-color: white;
+    width: 100%;
+}
     .hebergements-section {
             width: 100%;
-        }
-    .hebergements-cards{
+        
+    }
+    .hebergements-cards, .hebergements-card{
         display: flex;
             flex-direction: column;
             justify-content: space-between;
@@ -566,6 +573,7 @@ ul.Navigation {
             margin-top: 50px;
         }
     
+
         .populaires-cards {
             display: flex;
             flex-direction: column;
