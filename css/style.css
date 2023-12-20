@@ -554,7 +554,21 @@ ul.Navigation {
             width: 100%;
 
         }
-    
+        .filtrebouton {
+            flex-wrap: wrap;
+            width: 100%;
+            height: 161px;
+            white-space: normal;
+        }
+        .boutonfiltre {
+
+            width: 45%;
+            white-space: normal;
+
+
+        }
+
+
 
 .hebergements-and-populaires section {
     background-color: white;
