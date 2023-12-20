@@ -515,10 +515,38 @@ footer {
         justify-content: center;
         width: 100%;
     }
-    
     nav.Navigation {
         width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+     
     }
+ul.Navigation {
+ 
+    width: 100%;
+    gap: 0px;
+    padding-inline-start: 0px;
+}
+
+.buttonLienNavigation{
+    width: 375px;
+}
+.LienNavigation{
+    display: flex;
+    width: 120%;
+    Font:Raleway;
+    Size:16px;
+    align-items:Center;
+    justify-content: center;
+}
+
+
+.LienNavigation:hover {
+    border-top:none;
+    border-bottom: 2px solid  #0065fc;
+  }
+
     .hebergements-and-populaires {
             flex-direction: column-reverse;
             width: 100%;
