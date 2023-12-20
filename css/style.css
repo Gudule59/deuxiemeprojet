@@ -572,16 +572,10 @@ ul.Navigation {
       
         }
 .loupe{
-    display: flex;
-    width: 50%;
-}
-.BoutonRechercher {
-    
-    width: 20%;
-  }
+    display: none;
+ }
 
-
-  .fa-location-dot {
+  .fa-location-dot, .BoutonRechercher {
     width: 15%;
 
   }
