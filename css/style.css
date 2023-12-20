@@ -541,12 +541,39 @@ ul.Navigation {
     justify-content: center;
 }
 
-
 .LienNavigation:hover {
     border-top:none;
     border-bottom: 2px solid  #0065fc;
   }
+/* boutons */
 
+.filtres {
+    display:flex ;
+    flex-direction:column;
+    Height:432px;
+}
+
+h1 {
+    Size :22px;
+
+}
+
+.section-contact {
+    width: 100%;
+    background-color: white;
+    gap : 0px;
+}
+
+.fa-location-dot, .RetourcheEnvoyer{
+    width: 20%;
+}
+.RetourcheRecherche, .TableauRecherche {
+    width: 100%;
+}
+
+
+
+/* hebergements  */
     .hebergements-and-populaires {
             flex-direction: column-reverse;
             width: 100%;
@@ -583,10 +610,9 @@ ul.Navigation {
         .populaires-cards .card-subtitle {
             font-size: 13px;
         }
-        .filtres {
-            display:flex ;
-            flex-direction:column;
-        }
+
+
+/* activités */
         .ActivitesMarseille {
             width: 100%;
         }
