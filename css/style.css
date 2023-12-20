@@ -247,6 +247,9 @@ ul {
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
+    Width:100%;
+    Height:614px;
+
 }
 
 .hebergements-and-populaires section, aside {
@@ -265,6 +268,7 @@ ul {
 .hebergements{
     display: flex;
     flex-direction: column;
+
 
 }
 
@@ -512,6 +516,8 @@ header{
 
 .Logo{
     display: flex;
+    align-items: center;
+    justify-content: center;
     width: 100%;
 }
 
@@ -520,15 +526,17 @@ nav.Navigation {
 }
 .hebergements-and-populaires {
         flex-direction: column-reverse;
+        width: 100%;
     }
 
-    .hebergements-section {
+.hebergements-section {
         width: 100%;
     }
 .hebergements-cards{
     display: flex;
         flex-direction: column;
         justify-content: space-between;
+        width: 100%;
 }
     .populaires {
         width: 100%;
@@ -542,7 +550,7 @@ nav.Navigation {
     }
 
     .populaires-cards a {
-        width: 30%;
+        width: 100%;
     }
 
     .populaires-cards .card-title {
@@ -572,6 +580,27 @@ nav.Navigation {
        
       }
 
+      footer {
+        background-color: #f2f2f2;
+        font-size: 16px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        color: black;
+      }
+      
+      .TitreFooter {
+        font-size: 18px;
+        font-weight: bold;
+      }
+      .footer-section{
+        width: 100%;
+        
+      }
+      .PiedDePage {
+     padding-bottom: 20px;
+     
+      }
     
 
 }
