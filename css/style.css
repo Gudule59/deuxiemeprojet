@@ -135,6 +135,7 @@ a {
 
 ul {
   list-style-type: none;
+  padding-left: 0px;
 }
 .Filtres2{
     display: flex;
