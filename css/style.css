@@ -115,11 +115,13 @@ ul.Navigation {
     height: 35px;
     background-color: white;
     border: none;
+    padding-top: 15px;
 }
 
 a.LienNav {
     width: 112px;
     height: 19px;
+ 
 }
 
 a {
@@ -129,6 +131,7 @@ a {
 
 .LienNavigation:hover {
     border-top: 2px solid #0065fc;
+    padding-top: 15px;
 }
 
 /********  boutons recherche et filtres ********/
