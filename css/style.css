@@ -77,14 +77,14 @@ header {
     margin-bottom: 40px;
 }
 
-.filtrebouton {
+.filtre-bouton {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     width: auto;
 }
 
-.Logo {
+.logo {
     width: 161px;
     height: 19px;
     gap: 10px;
@@ -93,7 +93,7 @@ header {
 
 /****** navigation  ***********/
 
-nav.Navigation {
+nav.navigation {
     display: flex;
     align-items: flex-end;
     color: black;
@@ -103,14 +103,14 @@ nav.Navigation {
     margin-top: 20px;
 }
 
-ul.Navigation {
+ul.navigation {
     display: flex;
     width: 244px;
     height: 35px;
     gap: 68px;
 }
 
-.LienNavigation {
+.lien-navigation {
     width: 113px;
     height: 35px;
     background-color: white;
@@ -118,7 +118,7 @@ ul.Navigation {
     padding-top: 10px;
 }
 
-a.LienNav {
+a.lien-nav {
     width: 112px;
     height: 19px;
 }
@@ -128,7 +128,7 @@ a {
     color: rgb(2, 2, 2);
 }
 
-.LienNavigation:hover {
+.lien-navigation:hover {
     border-top: 2px solid #0065fc;
     padding-top: 10px;
 }
@@ -140,7 +140,7 @@ ul {
     padding-left: 0px;
 }
 
-.Filtres2, .titrefiltre {
+.filtres2, .titre-filtre {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -157,7 +157,7 @@ ul {
     margin-bottom: 15px;
 }
 
-.boutonfiltre {
+.bouton-filtre {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -182,13 +182,13 @@ ul {
     margin-right: 10px;
 }
 
-.filtretext {
+.filtre-text {
     font-weight: bold;
     color: black;
     margin-left: 10px;
 }
 
-.boutonfiltre:hover {
+.bouton-filtre:hover {
     background-color: #deebff;
 }
 
@@ -197,7 +197,7 @@ input {
     color: blue;
 }
 
-.BoutonRechercher {
+.bouton-rechercher {
     display: inline-block;
     background: #0065fc;
     color: white;
@@ -212,7 +212,7 @@ input {
 /****** menu recherche  ***********/
 
 .section-contact,
-.TableauRecherche {
+.tableau-recherche {
     height: 49px;
     width: 100%;
     display: flex;
@@ -231,7 +231,7 @@ input {
     align-items: center;
 }
 
-.RetourcheRecherche {
+.retourche-recherche {
     height: auto;
     width: 200px;
     color: black;
@@ -245,7 +245,7 @@ input {
 
 }
 
-.RetourcheEnvoyer {
+.retourche-envoyer {
     height: auto;
     width: 137px;
     align-items: center;
@@ -336,7 +336,7 @@ aside {
     margin-bottom: 5px;
 }
 
-.afficherplus {
+.afficher-plus {
     margin-top: 20px;
 }
 
@@ -372,7 +372,7 @@ aside {
     box-sizing: border-box;
 }
 
-.ActivitesCard .card-title {
+.activites-card .card-title {
     margin-top: 10px;
     margin-bottom: 4px;
     padding-left: 10px;
@@ -388,27 +388,27 @@ aside {
 
 /********Activités  Marseille **********/
 
-.GestionArticle2 {
+.gestion-article2 {
     display: flex;
     flex-direction: row;
     height: 439px;
     gap: 30px;
 }
 
-.ActivitesImg {
-    width: 297.5px;
+.activites-img {
+    width: 100%;
     height: 380px;
     border-radius: 20px 20px 0px 0px;
     object-fit: cover;
 }
 
-.ActivitesMarseille {
+.activites-marseille {
     width: auto;
     gap: 30px;
     margin-bottom: 50px;
 }
 
-.ActivitesCard {
+.activites-card {
     width: 100%;
     height: 439px;
     padding: 5px;
@@ -426,7 +426,7 @@ footer {
     color: black;
 }
 
-.TitreFooter {
+.titre-footer {
     font-size: 18px;
     font-weight: bold;
 }
@@ -435,7 +435,7 @@ footer {
     width: 446px;
 }
 
-.PiedDePage {
+.pied-de-page {
     padding-bottom: 20px;
 }
 
@@ -446,12 +446,12 @@ footer {
         flex-direction: column;
     }
 
-    .Logo {
+    .logo {
         display: flex;
         width: 50%;
     }
 
-    nav.Navigation {
+    nav.navigation {
         width: 30%;
     }
 
@@ -487,17 +487,17 @@ footer {
         flex-direction: column;
     }
 
-    .ActivitesMarseille {
+    .activites-marseille {
         width: 864px;
     }
 
-    .GestionArticle2 {
+    .gestion-article2 {
         width: 193px;
         height: 270px;
     }
 
-    .ActivitesImg {
-        width: 193px;
+    .activites-img {
+        width: 100%;
         height: 200px;
     }
 }
@@ -521,21 +521,21 @@ footer {
         height: 115px;
     }
 
-    .Logo {
+    .logo {
         display: flex;
         align-items: center;
         justify-content: center;
         width: 100%;
     }
 
-    nav.Navigation {
+    nav.navigation {
         width: 100%;
         display: flex;
         align-items: center;
         justify-content: center;
     }
 
-    ul.Navigation {
+    ul.navigation {
         width: 100%;
         gap: 0px;
         padding-inline-start: 0px;
@@ -545,14 +545,14 @@ footer {
         width: 375px;
     }
 
-    .LienNavigation {
+    .lien-navigation {
         display: flex;
         width: 120%;
         align-items: Center;
         justify-content: center;
     }
 
-    .LienNavigation:hover {
+    .lien-navigation:hover {
         border-top: none;
         border-bottom: 2px solid #0065fc;
     }
@@ -562,14 +562,14 @@ footer {
         width: 100%;
     }
 
-    .filtrebouton {
+    .filtre-bouton {
         flex-wrap: wrap;
         width: 100%;
         height: 161px;
         white-space: normal;
     }
 
-    .boutonfiltre {
+    .bouton-filtre {
         width: 45%;
     }
 
@@ -578,16 +578,16 @@ footer {
     }
 
     .fa-location-dot,
-    .BoutonRechercher {
+    .bouton-rechercher {
         width: 15%;
     }
 
     .section-contact,
-    .TableauRecherche {
+    .tableau-recherche {
         width: 100%;
     }
 
-    .RetourcheRecherche {
+    .retourche-recherche {
         width: 100%;
     }
 
@@ -647,19 +647,19 @@ footer {
         flex-direction: column;
     }
 
-    .ActivitesMarseille {
+    .activites-marseille {
         width: 100%;
         height: 965px;
     }
 
-    .GestionArticle2 {
+    .gestion-article2 {
         display: flex;
         flex-direction: column;
         width: 100%;
         height: 845px;
     }
 
-    .ActivitesImg {
+    .activites-img {
         width: 100%;
         height: 141px;
     }
