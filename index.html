@@ -20,10 +20,10 @@
 
             <nav class="Navigation">
                 <ul class="Navigation">
-                    <button type="button" class="LienNavigation"><a class="LienNav"
-                            href="#Hebergements">Hébergements</a></button>
-                    <button type="button" class="LienNavigation"><a class="LienNav" href="#Activites">Activités
-                        </a></button>
+                    <li  class="LienNavigation"><a class="LienNav"
+                            href="#ancreHebergements">Hébergements</a></li>
+                    <li class="LienNavigation"><a class="LienNav" href="#ancreActivites">Activités
+                        </a></li>
                 </ul>
             </nav>
         </header>
@@ -39,8 +39,8 @@
                         <input type="text" name="text" class="RetourcheRecherche" value="Marseille, France ...">
 
                         <button type="button" class="RetourcheEnvoyer"><span class="loupe"
-                                alt="bouton recherche">Rechercher</span><i class="fa-solid fa-magnifying-glass"
-                                style="color: rgb(255, 255, 255);" alt="recherche"></i></button>
+                                >Rechercher</span><i class="fa-solid fa-magnifying-glass"
+                                style="color: rgb(255, 255, 255);"></i></button>
                     </form>
                 </article>
                 <article class="filtres">
@@ -50,33 +50,31 @@
                     <div class="filtrebouton">
                         <button class="boutonfiltre" name="Economique" value="Economique">
                             <i class="fa-sharp fa-solid fa-money-bill-wave" style="color: #0065FC;">
-                                <textare class="filtretext">Economique</textare:>
+                                <span class="filtretext">Economique</span>
                             </i>
                         </button>
                         <button class="boutonfiltre" name="Familial" value="Familial">
                             <i class="fa-solid fa-person" style="color: #0065FC;">
-                                <textare class="filtretext">Familial</textare:>
+                                <span class="filtretext">Familial</span>
                             </i>
                         </button>
                         <button class="boutonfiltre" name="Romantiques" value="Romantiques">
                             <i class="fa-solid fa-heart" style="color: #0065FC;">
-                                <textare class="filtretext">Romantiques</textare:>
+                                <span class="filtretext">Romantiques</span>
                             </i>
                         </button>
                         <button class="boutonfiltre" name="Nos pépites" value="Nos pépites">
                             <i class="fa-solid fa-fire" style="color: #0065FC;">
-                                <textare class="filtretext">Nos pépites</textare:>
+                                <span class="filtretext">Nos pépites</span>
                             </i>
-                    </div>
-                    </button>
-
+                         </button>
+                </div>
                 </article>
 
                 <article>
-                    <div class="Filtres">
+                    <div class="Filtres2">
                         <i class="fa-solid fa-info" style="color: #0065FC;"></i>
-                        <textare class="filtretext1">Plus de 500 logements sont disponibles dans cette ville</textare:>
-                            <div class="caption"> </div>
+                        <div  class="filtretext1">Plus de 500 logements sont disponibles dans cette ville</div>
                     </div>
 
                 </article>
@@ -85,9 +83,8 @@
             <div class="hebergements-and-populaires">
                 <section class="hebergements-section">
                     <div class="hebergements">
-                        <div class="hebergements-title">
-                            <h2 class="section-title">Hebergements à Marseille</h2> <a name="Hebergements"></a>
-
+                        <div id="ancreHebergements" class="hebergements-title">
+                            <h2 class="section-title">Hebergements à Marseille</h2> 
                         </div>
                         <div class="hebergements-cards">
                             <a href="#">
@@ -296,7 +293,7 @@
              
 
                 <article class="card2">
-                    <h2 class="section-title2">Activités à Marseille</h2> <a name="Activites"></a>
+                    <h2 id="ancreActivites" class="section-title2">Activités à Marseille</h2> 
 
                 </article>
 
