@@ -317,6 +317,7 @@ aside {
 
 .hebergements-card-content {
   width: 100%;
+  height: 110px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -338,8 +339,22 @@ aside {
 }
 
 .afficher-plus {
-  margin-top: 20px;
+  margin-top: 55px;
 }
+
+.lien-hebergements-cards{
+    width: 90%;
+    height: 207px;
+   margin: 25px;
+   margin-bottom:65px;
+
+  }
+
+
+
+
+
+
 
 /****** Populaires ***********/
 .populaires {
