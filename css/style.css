@@ -21,8 +21,7 @@ body {
 .main-container {
   width: 100%;
   max-width: 1440px;
-
-  padding: 0 50px;
+ justify-content: center;
   box-sizing: border-box;
 }
 
@@ -489,6 +488,7 @@ footer {
   .filtres {
     display: flex;
     flex-direction: column;
+    
   }
 
   .activites-marseille {
@@ -575,6 +575,8 @@ footer {
 
   .bouton-filtre {
     width: 45%;
+   margin-left: 15px;
+   padding-right: 15px;
   }
 
   .loupe {
@@ -649,6 +651,11 @@ footer {
   .filtres {
     display: flex;
     flex-direction: column;
+    height: 180px;
+  }
+  .filtre-text{
+    margin-left:0;
+   height: 50px;
   }
 
   .activites-marseille {
